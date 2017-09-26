@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.15
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "Manny.Blockchain.ShoppingCart", "Manny.Blockchain.ShoppingCart\Manny.Blockchain.ShoppingCart.njsproj", "{5585CDB2-EFED-4ECB-91B9-BF23F7DAC7C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5585CDB2-EFED-4ECB-91B9-BF23F7DAC7C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5585CDB2-EFED-4ECB-91B9-BF23F7DAC7C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5585CDB2-EFED-4ECB-91B9-BF23F7DAC7C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5585CDB2-EFED-4ECB-91B9-BF23F7DAC7C7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://intelliapps.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Manny.Blockchain.ShoppingCart\\Manny.Blockchain.ShoppingCart.njsproj
+		SccProjectName1 = Manny.Blockchain.ShoppingCart
+		SccLocalPath1 = Manny.Blockchain.ShoppingCart
+	EndGlobalSection
+EndGlobal

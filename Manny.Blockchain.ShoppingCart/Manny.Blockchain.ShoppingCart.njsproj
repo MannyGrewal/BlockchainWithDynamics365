@@ -1,0 +1,95 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">14.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <Name>Manny.Blockchain.ShoppingCart</Name>
+    <RootNamespace>Manny.Blockchain.ShoppingCart</RootNamespace>
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>5585cdb2-efed-4ecb-91b9-bf23f7dac7c7</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>
+    </StartupFile>
+    <StartWebBrowser>False</StartWebBrowser>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
+    <StartWebBrowser>false</StartWebBrowser>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include=".babelrc" />
+    <Content Include="build\contracts\Migrations.json" />
+    <Content Include="build\contracts\Purchase.json" />
+    <Content Include="contracts\Migrations.sol" />
+    <Content Include="contracts\Purchase.sol" />
+    <Content Include="package-lock.json" />
+    <Content Include="package.json" />
+    <Content Include="public\index.html" />
+    <Content Include="public\style.css" />
+    <Content Include="README.md" />
+    <Content Include="src\index.jsx" />
+    <Content Include="public\Images\banana.jpg" />
+    <Content Include="public\Images\colgate.jpg" />
+    <Content Include="public\Images\dietcoke.jpg" />
+    <Content Include="public\Images\icecream.jpg" />
+    <Content Include="public\Images\pepsi.jpg" />
+    <Content Include="public\Images\salad.jpg" />
+    <Content Include="public\Images\samosa.jpg" />
+    <Content Include="public\Images\tandoori.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="build\" />
+    <Folder Include="build\contracts\" />
+    <Folder Include="contracts\" />
+    <Folder Include="migrations\" />
+    <Folder Include="public\" />
+    <Folder Include="src\" />
+    <Folder Include="src\CRM Blockchain\" />
+    <Folder Include="src\CRM Blockchain\Actions\" />
+    <Folder Include="src\CRM Blockchain\Catalog\" />
+    <Folder Include="src\CRM Blockchain\Reducers\" />
+    <Folder Include="src\CRM Blockchain\Shopping Cart\" />
+    <Folder Include="src\_Mocks\" />
+    <Folder Include="public\Images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="migrations\1_initial_migration.js" />
+    <Compile Include="migrations\2_deploy_contracts.js" />
+    <Compile Include="public\bundle.js" />
+    <Compile Include="src\CRM Blockchain\Actions\AllActions.js" />
+    <Compile Include="src\_Mocks\Mock.js" />
+    <Compile Include="src\CRM Blockchain\Catalog\Catalog.js" />
+    <Compile Include="src\CRM Blockchain\Catalog\CatalogItem.js" />
+    <Compile Include="src\CRM Blockchain\Catalog\CatalogTable.js" />
+    <Compile Include="src\CRM Blockchain\connect.js" />
+    <Compile Include="src\CRM Blockchain\Main.js" />
+    <Compile Include="src\CRM Blockchain\Reducers.js" />
+    <Compile Include="src\CRM Blockchain\Reducers\CrmProductsReducer.js" />
+    <Compile Include="src\CRM Blockchain\Reducers\SelectedProductsReducer.js" />
+    <Compile Include="src\CRM Blockchain\Shopping Cart\ShoppingCart.js" />
+    <Compile Include="src\CRM Blockchain\Shopping Cart\ShoppingItem.js" />
+    <Compile Include="src\CRM Blockchain\Shopping Cart\ShoppingTotal.js" />
+    <Compile Include="src\Store.js" />
+    <Compile Include="truffle.js" />
+    <Compile Include="webpack.config.js" />
+  </ItemGroup>
+  <!-- Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them. -->
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="False" />
+  <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsTools.targets" />
+</Project>

@@ -1,0 +1,19 @@
+body{
+    padding: 0px 20px 0px 5px;
+}
+div {
+    text-align: left;
+    word-wrap: break-word;
+    align-content:center;
+}
+h1.mainTitle {
+    text-align:center;
+    padding-bottom: 30px;
+}
+.fade {
+    opacity: 0;
+    -webkit-transition: opacity 0.15s linear;
+    -moz-transition: opacity 0.15s linear;
+    -o-transition: opacity 0.15s linear;
+    transition: opacity 0.15s linear;
+}
