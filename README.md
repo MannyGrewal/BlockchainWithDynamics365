@@ -7,3 +7,5 @@ The main functionalities are
 3. Totals module
 4. Sending transactions on the Blockchain
 5. Approving and reviewing them using MetaMask
+
+More details on https://mannygrewal.wordpress.com/
