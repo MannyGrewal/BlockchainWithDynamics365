@@ -44,14 +44,6 @@
     <Content Include="public\style.css" />
     <Content Include="README.md" />
     <Content Include="src\index.jsx" />
-    <Content Include="public\Images\banana.jpg" />
-    <Content Include="public\Images\colgate.jpg" />
-    <Content Include="public\Images\dietcoke.jpg" />
-    <Content Include="public\Images\icecream.jpg" />
-    <Content Include="public\Images\pepsi.jpg" />
-    <Content Include="public\Images\salad.jpg" />
-    <Content Include="public\Images\samosa.jpg" />
-    <Content Include="public\Images\tandoori.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="build\" />
@@ -71,7 +63,6 @@
   <ItemGroup>
     <Compile Include="migrations\1_initial_migration.js" />
     <Compile Include="migrations\2_deploy_contracts.js" />
-    <Compile Include="public\bundle.js" />
     <Compile Include="src\CRM Blockchain\Actions\AllActions.js" />
     <Compile Include="src\_Mocks\Mock.js" />
     <Compile Include="src\CRM Blockchain\Catalog\Catalog.js" />
